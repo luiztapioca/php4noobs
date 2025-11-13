@@ -1,27 +1,16 @@
 <?php
 
-$user = [
-    "name" => "John Doe",
-    "age" => 3000
-];
-/*
-$user2 = [
-    "name" => "Jane Doe",
-    "age" => 3001
-];
-*/
-$user2 = [
-    "name" => "John Doe",
-    "age" => '3000'
+$arr = array(1,2,3);
+
+$map = array(
+    "foo" => "bar",
+    "john" => "doe"
+);
+
+$foo = [
+    "foo" => "bar",
+    "jhon" => "doe"
 ];
 
-$house = [
-    "location" => "Mars",
-    "price" => 1231213.23
-];
-
-$union = $user + $house;
-
-print_r($union);
-
-var_dump($user == $user2);
+print_r($map);
+print_r($foo);
